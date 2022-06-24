@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "ccf9f10e-1f30-44c2-b1fc-11e0390d32a1",
+		"name": "FirstApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20611498"
+	},
+	"item": [
+		{
+			"name": "Welcome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/name/yourName",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"name",
+						"yourName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/name/yourName",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"name",
+						"yourName"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
